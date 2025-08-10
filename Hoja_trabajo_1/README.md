@@ -1,8 +1,9 @@
 # DESCRIPCION
-    Modificacion de la pagina Web de la Hoja_trabajo_1 agregando css a la pagina web 
+    Modificacion de la pagina Web de la Hoja_trabajo_1 de la rama css_hoja_1
+    agregando modificaciones de Bootstrap. realizando 3 hojas mas.
 
 ## Enlace del sitio web
-    https://delightful-kangaroo-3de522.netlify.app/
+    
     
 
 ## Nombre
