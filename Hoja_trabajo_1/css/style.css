@@ -1,5 +1,15 @@
 
-body{ background-color: #273363;}
+.bg-personalizado {
+   
+  background: linear-gradient(150deg, #6610f2 50%, #273363 100%);
+}
+
+body{
+    background-color: #273363;
+    font-family: cambria;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;}
 
 img{
     display: block;
