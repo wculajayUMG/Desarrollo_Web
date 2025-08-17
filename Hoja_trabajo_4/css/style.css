@@ -1,0 +1,67 @@
+
+.bg-personalizado {
+   
+  background: linear-gradient(150deg, #6610f2 50%, #273363 100%);
+}
+
+body{
+    background-color: #273363;
+    font-family: cambria;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+}
+
+h1{
+    color: #F1C40F;
+    font-family: calibri;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    font-family: cambria;
+    font-size: 50px;
+    color: #E0E0E0;
+    text-align: center;
+    
+}
+
+
+p{
+    color: #AED6F1;
+    font-family: lucida Sans;
+    font-size: 20px;
+    text-align: center;  
+  
+}
+a{
+    color: #F1C40F;
+    font-family: cambria;
+    font-size: 30px;
+    text-decoration:double;
+    
+}
+
+li{
+    color: #E0E0E0;
+    font-family: cambria;
+    font-size: 20px;
+    
+}
+
+
+tr{
+    background-color: #E0E0E0;
+    color: #273363;
+    font-family: cambria;
+    font-size: 20px;
+}
+
