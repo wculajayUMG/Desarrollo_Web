@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atracciones</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-personalizado">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="Index.html"><i class="bi bi-house-door"></i> Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="atracciones.html">Atracciones</a></li>
+            <li class="nav-item"><a class="nav-link" href="alojamiento.html">Alojamiento</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-5">
+        <h2 class="mb-4 text-center">Atracciones Turísticas</h2>
+        <!-- Carousel -->
+        <div id="atraccionesCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.guatemala.com/fotos/2018/10/portada-final1-885x500.jpg" class="d-block w-100" alt="Fuentes Georginas">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fuentes Georginas</h5>
+                <p>Aguas termales rodeadas de naturaleza.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.guatemala.com/fotos/201801/Fuentes-Georginas-885x500.jpg" class="d-block w-100" alt="Pozas Termales">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Pozas Termales</h5>
+                <p>Relájate en aguas calientes naturales.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.guatemala.com/fotos/201703/Fuentes-Georginas1-885x500.jpg" class="d-block w-100" alt="Senderos">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Senderos Naturales</h5>
+                <p>Explora la biodiversidad de la región.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#atraccionesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#atraccionesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <!-- Tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="termales-tab" data-bs-toggle="tab" data-bs-target="#termales" type="button" role="tab">Aguas Termales</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="senderos-tab" data-bs-toggle="tab" data-bs-target="#senderos" type="button" role="tab">Senderos</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="restaurante-tab" data-bs-toggle="tab" data-bs-target="#restaurante" type="button" role="tab">Restaurante</button>
+          </li>
+        </ul>
+        <div class="tab-content p-3 border border-top-0 bg-light" id="myTabContent">
+          <div class="tab-pane fade show active" id="termales" role="tabpanel">
+            <p>Disfruta de las aguas termales naturales, ideales para relajarse y disfrutar del entorno montañoso.</p>
+          </div>
+          <div class="tab-pane fade" id="senderos" role="tabpanel">
+            <p>Explora senderos rodeados de vegetación y descubre la biodiversidad de la región.</p>
+          </div>
+          <div class="tab-pane fade" id="restaurante" role="tabpanel">
+            <p>Saborea platillos típicos y bebidas calientes en el restaurante junto a las pozas principales.</p>
+          </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
