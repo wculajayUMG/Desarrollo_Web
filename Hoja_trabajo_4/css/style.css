@@ -1,7 +1,6 @@
-
 .bg-personalizado {
-   
-  background: linear-gradient(150deg, #6610f2 50%, #273363 100%);
+    background: linear-gradient(135deg, #0d6efd 0%, #6f42c1 100%);
+    min-height: 100vh;
 }
 
 body{
@@ -63,5 +62,29 @@ tr{
     color: #273363;
     font-family: cambria;
     font-size: 20px;
+}
+
+/* Personalización de colores Bootstrap */
+:root {
+    --bs-primary: #6f42c1;
+    --bs-success: #20c997;
+    --bs-warning: #ffc107;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+    .container {
+        padding: 1rem;
+    }
+}
+
+/* Estética para comentarios */
+#comentarios-container .card {
+    border-radius: 1rem;
+    border: none;
+    background: #fff;
 }
 
